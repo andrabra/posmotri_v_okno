@@ -147,6 +147,19 @@ ol {
   align-items: start;
 }
 
+.content__video-card-title{
+  padding-bottom: 6px;
+}
+
+.content__video-card-description {
+  color: #fff;
+  font-family: Fira Sans Condensed;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16.2px; /* 90% */
+}
+
 .content__video-card-thumbnail {
   max-width: 194px;
   max-height: 103px;
