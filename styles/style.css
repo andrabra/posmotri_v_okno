@@ -106,12 +106,27 @@ fieldset {
   gap: 5px;
 }
 
+.search-form__label:has(:focus-visible){
+  outline: 1px solid #FFF;
+  outline-offset: 1px;
+}
+
 .search-form__pseudo-checkbox {
   display: flex;
   width: 19px;
   height: 19px;
   border: 1px solid #fff;
   cursor: pointer;
+}
+
+.search-form__checkbox::before:active{
+  content: "";
+  width: 18px;
+  height: 18px;
+  background-color: #FFF;
+  justify-self: center;
+  align-self: center;
+
 }
 
 .search-form__checkbox-list {
@@ -135,6 +150,10 @@ fieldset {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+}
+
+.search-form__textfield:focus{
+  outline: none;
 }
 
 .button {
