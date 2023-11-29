@@ -51,7 +51,7 @@ ol {
   display: grid;
   max-width: 1200px;
   width: 100%;
-  padding: 133px 30px;
+  place-content: center;
 
 }
 
@@ -63,7 +63,7 @@ ol {
 }
 
 .result {
-  padding-top: 80px;
+  padding-top: 78px;
   max-width: 711px;
   width: 100%;
 }
