@@ -57,13 +57,12 @@ ol {
 .content {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  align-items: end;
   max-width: 1140px;
   gap: 30px;
 }
 
 .result {
-  padding-bottom: 225px;
+  padding-top: 80px;
   max-width: 711px;
   width: 100%;
 }
@@ -73,10 +72,10 @@ ol {
 }
 
 .result__video-container {
-  width: 711px;
-  height: 100%;
+  max-width: 711px;
+  max-height: 386px;
   position: relative;
-  padding-bottom: 16px;
+  margin-bottom: 16px;
 }
 
 .result__video {
@@ -246,6 +245,7 @@ fieldset {
 }
 
 .content__details {
+  max-height: 399px;
 }
 
 .title {
@@ -270,7 +270,7 @@ fieldset {
 }
 
 .content__list {
-  max-height: 534px;
+  height: 298px;
   overflow-y: auto;
   position: relative;
 }
