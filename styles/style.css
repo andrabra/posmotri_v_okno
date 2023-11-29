@@ -127,6 +127,8 @@ fieldset {
   cursor: pointer;
   justify-content: center;
   align-items: center;
+  justify-content: center;
+  align-items: center;
 }
 
 .search-form__checkbox:checked + .search-form__pseudo-checkbox::after {
@@ -145,6 +147,10 @@ fieldset {
 
 .search-form__label-text:hover{
   text-decoration: underline;
+}
+
+.search-form__label-text{
+  cursor: pointer;
 }
 
 .search-form__checkbox-list {
@@ -190,6 +196,38 @@ fieldset {
   font-weight: 700;
   line-height: normal;
   align-self: flex-end;
+}
+
+.button:focus {
+  outline: 0;
+}
+
+.button:focus-visible {
+
+}
+
+.button:hover {
+  text-decoration: underline;
+}
+
+.button:active {
+  background: #545050;
+}
+
+.button:focus {
+  outline: 0;
+}
+
+.button:focus-visible {
+
+}
+
+.button:hover {
+  text-decoration: underline;
+}
+
+.button:active {
+  background: #545050;
 }
 
 .button:focus {
