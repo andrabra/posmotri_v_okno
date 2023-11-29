@@ -139,17 +139,15 @@ fieldset {
   background-color: #fff;
 }
 
-
-
 .search-form__label-text {
   cursor: pointer;
 }
 
-.search-form__label-text:hover{
+.search-form__label-text:hover {
   text-decoration: underline;
 }
 
-.search-form__label-text{
+.search-form__label-text {
   cursor: pointer;
 }
 
@@ -181,7 +179,6 @@ fieldset {
   outline: none;
 }
 
-
 .button {
   background-color: transparent;
   padding: 6px 73.5px;
@@ -203,7 +200,6 @@ fieldset {
 }
 
 .button:focus-visible {
-
 }
 
 .button:hover {
@@ -219,7 +215,6 @@ fieldset {
 }
 
 .button:focus-visible {
-
 }
 
 .button:hover {
@@ -298,7 +293,6 @@ fieldset {
   line-height: 100%; /* 30px */
   text-transform: uppercase;
 
-
   display: block;
   position: relative;
   z-index: 1;
@@ -306,10 +300,8 @@ fieldset {
   margin: 2px;
 }
 
-
 .content__card-link_current {
   background-color: #545050;
-
 
   z-index: -1;
 }
@@ -319,15 +311,15 @@ fieldset {
 }
 
 .content__card-link:focus-visible {
-  outline: 1px solid #FFF;
+  outline: 1px solid #fff;
   outline-offset: 1px;
 }
 
-.content__card-link:hover{
+.content__card-link:hover {
   text-decoration-line: underline;
 }
 
-.content__card-link_current:active{
+.content__card-link_current:active {
   background-color: #545050;
 }
 
